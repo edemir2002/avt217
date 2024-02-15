@@ -1,11 +1,21 @@
 body{
-	background-color: lavender;
+	background-color: darkblue;
+	color: White;
 }
 body{
-	margin: 50px;
+	margin: 150px;
 }
-p {
-  font-size: 22px;
+h1{
+  font-size: 100px;
   letter-spacing: .5px;
   margin-top: 0;
+}
+a {
+  text-decoration: none; 
+}
+a:link {
+  color: darkgray;
+}
+a:hover {
+  color: darkred;
 }
