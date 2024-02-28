@@ -1,54 +1,53 @@
 margin: 50px;
 }
 body {
-  background-color: black;
-  font-family: 'Playfair Display', serif;
-  color: #373F51; 
+  background-color: orangered;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+
+}
+{
+  font-weight: 400;
+  font-style: normal;
+}
+
   margin: 50px;
   text-align: center;
 }
-header {
-  width: 75vw;
-  margin: 25px auto;
-  padding: 0 25px;
+h1{
   text-align: center;
-}
-main {
-  width: 75vw;
-  margin: 25px auto;
-  display: flow-root;
-  text-align: center;
-}
-h1 {
-  margin: 0;
-  font-size: 4rem;
-  text-align: left;
-  font-style: italic;
-  font-weight: 700;
-  text-align: center;
-  color: darkred;
+  font-size: 22px;
+  font-family: "Bebas Neue", sans-serif;
 }
 h2 {
   margin: 25px 0 0px;
   font-size: 2rem;
   text-align: left;
-  font-family: "altivo", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 700;
   font-style: italic;
   text-align: center;
+  color: floralwhite;
 }
 p {
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: .5px;
   margin-top: 0;
   text-align: center;
+  .play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 }
   
 }
 li {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -59,13 +58,20 @@ ul {
   list-style-type: none;
   margin: 0 0 50px 0;
   padding: 0;
-  font-family: "altivo", sans-serif;
-  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 300;
   font-style: normal;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-style: bold;
   font-style: italic;
 
+}
+body{
+  background-color: lightblue;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: orangered;
+  font-size: 40px;
 }
 
