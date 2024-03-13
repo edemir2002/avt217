@@ -5,13 +5,13 @@ body{margin: 0;}
 	height: 120px;
 	background-color: black;
 	float: left;
-	transform: rotate(45deg);
+	transform: rotate(50deg);
 	border:5px solid white;
 }
 .p1-2{
 	width: 120px;
 	height: 120px;
-	background-color: darkred;
+	background-color: greenyellow;
 	float: left;
 	transform: skew(40deg,30deg);
 }
