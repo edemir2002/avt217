@@ -1,8 +1,8 @@
-
+body{
 margin: 50px;
 }
 body {
-  background-color: orangered;
+  background-color: beige;
   margin: 50px;
   .playfair-display sc-regular-italic {
   font-family: "Playfair Display SC", serif;
@@ -10,7 +10,7 @@ body {
   font-style: italic;
 }
   text-align: center;
-}
+
 header {
   width: 75vw;
   margin: 25px auto;
@@ -37,8 +37,6 @@ h2 {
 }
 body{
   background-color: beige;
-
-
 }
 li {
   font-size: 1rem;
@@ -60,17 +58,13 @@ ul {
   font-size: 28px;
   font-style: bold;
   font-style: italic;
-
 }
 h2{
   text-align: center;
-
 }
 h1{
   text-align: center;
   font-size: 120px;
   font-family: "Playfair Display SC", serif;
   font-weight: 400;
-
-
 }
