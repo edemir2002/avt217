@@ -1,0 +1,21 @@
+body{	
+	margin: 0;
+	background-color: black;
+}
+.title1{
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: whitesmoke;
+	transform: skew(25deg,110deg);
+	border: 2px black;
+}
+.title2{
+	width: 25px;
+	height: 25px;
+	background: darkred;
+	float: left;
+	margin: 50px;
+	transform: skew(50deg);
+
+}
