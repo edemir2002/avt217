@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+}
+.blue{
+	background-color: royalblue;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.black{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.board{
+	width: 800px;
+	margin: 75px auto;
+}
