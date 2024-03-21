@@ -14,9 +14,6 @@ main{
   margin: 25px;
   float: left;
 }
-body{
-margin: 50px;
-}
 body {
   background-color: beige;
   margin: 50px;
@@ -25,8 +22,6 @@ body {
   font-weight: 400;
   font-style: italic;
 }
-
-
 header {
   width: 75vw;
   margin: 25px auto;
@@ -40,9 +35,11 @@ main {
 h1 {
   margin: 0;
   font-size: 4rem;
-  text-align: left;
+  text-align: center;
   font-style: italic;
-  font-weight: 700;
+  font-size: 120px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
 }
 h2 {
   margin: 25px 0 0px;
@@ -74,13 +71,8 @@ ul {
   font-style: bold;
   font-style: italic;
 }
+
 h2{
   text-align: center;
-}
-h1{
-  text-align: center;
-  font-size: 120px;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 400;
 }
 
