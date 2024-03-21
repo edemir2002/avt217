@@ -1,26 +1,26 @@
-header{
-  width: 50px;
-  margin: 25px;
-  background-color: darkkhaki;
-}
-main{
-  width: 50px;
-  margin: 100px;
-  background-color: dimgrey;
-}
-.col{
-  width: 985px;
-  background-color:  beige;
-  margin: 25px;
-  float: left;
-}
 body {
   background-color: beige;
   margin: 50px;
-  .playfair-display sc-regular-italic {
+  .playfair-display sc-regular-italic 
   font-family: "Playfair Display SC", serif;
   font-weight: 400;
   font-style: italic;
+}
+header{
+  width: 75px;
+  margin: 25px auto;
+  background-color: darkkhaki;
+}
+main{
+  width: 75px;
+  margin: 50px auto;
+  background-color: beige;
+}
+.col{
+  width: 35%;
+  background-color:  beige;
+  float: left;
+
 }
 header {
   width: 75vw;
@@ -42,19 +42,24 @@ h1 {
   font-weight: 400;
 }
 h2 {
-  margin: 25px 0 0px;
+  margin: 25px 1 0px;
   font-size: 2rem;
-  text-align: left;
   font-weight: 700;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
-
+h3 {
+  margin: 25px 1 0px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+}
 li {
   font-size: 1rem;
   line-height: 2rem;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -66,13 +71,8 @@ ul {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   font-size: 28px;
   font-style: bold;
   font-style: italic;
 }
-
-h2{
-  text-align: center;
-}
-
