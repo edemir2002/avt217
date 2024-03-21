@@ -76,3 +76,10 @@ ul {
   font-style: bold;
   font-style: italic;
 }
+@media screen and (max-width:900px) {
+  .col{
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+  }
+}
