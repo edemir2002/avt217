@@ -1,5 +1,39 @@
-.base{
-	width:200px ;
+body{
+	background-color: beige;
+}
+.border{
+	width:275px ;
 	height: 400px;
-	position: ;
+	position:absolute;
+	background-color: black;
+	top: 100px;
+	left: 400px;
+	rotate: 90deg;
+}
+.screen{	
+	width:175px ;
+	height: 320px;
+	position:relative;
+	background-color: dimgrey;
+	top: 120px;
+	left: 442px;
+	rotate: 90deg;
+}
+.neck{
+	width:30px ;
+	height: 25px;
+	position:absolute;
+	background-color: black;
+	top: 430px;
+	left: 520px;
+}
+.stand{
+	width:5px ;
+	height: 150px;
+	position:absolute;
+	background-color: black;
+	top: 380px;
+	left: 530px;
+	rotate: 90deg;
+}
 }
