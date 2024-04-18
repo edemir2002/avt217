@@ -1,5 +1,5 @@
 body{
-	background-color: beige;
+	margin: 0;
 }
 .border{
 	width:275px ;
@@ -15,8 +15,8 @@ body{
 	height: 320px;
 	position:relative;
 	background-color: dimgrey;
-	top: 120px;
-	left: 442px;
+	top: 128px;
+	left: 450px;
 	rotate: 90deg;
 }
 .neck{
@@ -35,4 +35,33 @@ body{
 	top: 380px;
 	left: 530px;
 	rotate: 90deg;
+}
+.room{
+	width: 1440px;
+	height: 1000px;
+	position: fixed;
+	background-color: orangered;
+}
+.screen{
+	background-color: beige;
+	animation: color-shift 1s infinite;
+}
+.room{
+	background-color:orangered;
+	animation: color-shift 3s infinite;
+}
+
+
+@keyframes color-shift{
+	0%{
+		background-color: black;
+	}
+	50%{
+		background-color: whitesmoke;
+	}
+	75%{
+		background-color: indianred;
+	}
+	100%{
+		background-color: whitesmoke;
 }
